@@ -10,6 +10,11 @@
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UITextView *tweetTextView;
+
+
+- (IBAction)postButtonPressed:(id)sender;
+
 
 @end
 

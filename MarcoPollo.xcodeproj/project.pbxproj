@@ -14,6 +14,10 @@
 		E497A14F1A54B84300C93E53 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E497A14E1A54B84300C93E53 /* Images.xcassets */; };
 		E497A1521A54B84300C93E53 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E497A1501A54B84300C93E53 /* LaunchScreen.xib */; };
 		E497A15E1A54B84300C93E53 /* MarcoPolloTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E497A15D1A54B84300C93E53 /* MarcoPolloTests.m */; };
+		E497A1681A55E3FE00C93E53 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E497A1671A55E3FE00C93E53 /* Social.framework */; };
+		E497A16A1A57038900C93E53 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E497A1691A57038900C93E53 /* CoreGraphics.framework */; };
+		E497A16C1A57039B00C93E53 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E497A16B1A57039B00C93E53 /* UIKit.framework */; };
+		E497A16E1A5703A500C93E53 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E497A16D1A5703A500C93E53 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +44,10 @@
 		E497A1571A54B84300C93E53 /* MarcoPolloTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarcoPolloTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E497A15C1A54B84300C93E53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E497A15D1A54B84300C93E53 /* MarcoPolloTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MarcoPolloTests.m; sourceTree = "<group>"; };
+		E497A1671A55E3FE00C93E53 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		E497A1691A57038900C93E53 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E497A16B1A57039B00C93E53 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E497A16D1A5703A500C93E53 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +55,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E497A16E1A5703A500C93E53 /* Foundation.framework in Frameworks */,
+				E497A16C1A57039B00C93E53 /* UIKit.framework in Frameworks */,
+				E497A16A1A57038900C93E53 /* CoreGraphics.framework in Frameworks */,
+				E497A1681A55E3FE00C93E53 /* Social.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +77,7 @@
 			children = (
 				E497A1401A54B84300C93E53 /* MarcoPollo */,
 				E497A15A1A54B84300C93E53 /* MarcoPolloTests */,
+				E497A16F1A5703BC00C93E53 /* Frameworks */,
 				E497A13F1A54B84300C93E53 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -117,6 +130,17 @@
 				E497A15C1A54B84300C93E53 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E497A16F1A5703BC00C93E53 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E497A16D1A5703A500C93E53 /* Foundation.framework */,
+				E497A16B1A57039B00C93E53 /* UIKit.framework */,
+				E497A1691A57038900C93E53 /* CoreGraphics.framework */,
+				E497A1671A55E3FE00C93E53 /* Social.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
